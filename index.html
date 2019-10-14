@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projeto Front-End ESIG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <!-- Nav-bar -->
+
+        <div class="row justify-content-between nav-bar">
+            <div class="col-1 justify-content-center">
+                <div class="row">
+                    <div class="col-6 menu-icon">
+                        <button class="btn btn-default menu-btn">
+                            <img src="imagens/menu-button.png" alt="menu-icon">
+                        </button>
+                    </div>
+                    <div class="col-6 galeria-icon">
+                        <button class="btn btn-default gallery-btn">
+                            <img src="imagens/gallery.png" alt="gallery">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 user-name">
+                <h1>Renee mckelvey</h1>
+                <h4>Account settings</h4>
+            </div>
+            <div class="col-1 user-icon">
+                <img src="imagens/user.png" alt="user-icon">
+            </div>
+        </div>
+
+        <!-- Fim do Nav-bar -->
+        <!-- Conteudo da página -->
+
+
+        <div class="row" id="row-main">
+
+            <!-- Sidebar -->
+
+            <div class="col-1" id="sidebar">
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/search.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/home.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/text-document.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/statistics.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/upload.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/archive.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/calendar.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/network.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 sidebar-icon">
+                        <button class="btn btn-default sidebar-btn">
+                            <img src="imagens/icon.png" alt="menu-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fim do Sidebar -->
+            <!-- content -->
+
+            <div class="col-11" id="content">
+                <div class="row  justify-content-around total">
+                    <div class="col-3 card">
+                        <div class="row content-card">
+                            <div class="col-10">
+                                <h1>Total Sales</h1>
+                                <h5>22.523</h5>
+                            </div>
+                            <div class="col-2 align-self-center">
+                                <img src="imagens/kiosk.png" alt="stand" width="35px" height="35px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 card">
+                        <div class="row content-card">
+                            <div class="col-10">
+                                <h1>Total Income</h1>
+                                <h5>R$2112,00</h5>
+                            </div>
+                            <div class="col-2 align-self-center">
+                                <img src="imagens/tag (1).png" alt="etiqueta" width="35px" height="35px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 card">
+                        <div class="row content-card">
+                            <div class="col-10 align-self-center">
+                                <h1>Total views</h1>
+                                <h5>45.896</h5>
+                            </div>
+                            <div class="col-2 align-self-center">
+                                <img src="imagens/monitor (1).png" alt="monitor" width="35px" height="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row graficos justify-content-around">
+                    <div class="col-7 performace">
+                        <div class="row">
+                            <div class="col-12 performace-tite">
+                                <h1>Sales Performace</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 performace-grafico">
+                                <canvas id="grafico1"></canvas>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 performace-info">
+                                <span>Clique na legenda para retirar do grafico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 categories">
+                        <div class="row">
+                            <div class="col-12 categories-tite">
+                                <h1>Top Categories</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 categories-grafico">
+                                <canvas id="grafico2"></canvas>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 categories-info">
+                                <span>Clique na legenda para retirar do grafico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row customers justify-content-around">
+                    <div class="col-11 tit-customers">
+                        <h1>Recent Customers</h1>
+                        <div class="row justify-content-around">
+                            <div class="col-12 customers-content">
+                                <div class="row customers-info">
+                                    <div class="col-2 name">
+                                        <h2>Jerry Mattedi</h2>
+                                    </div>
+                                    <div class="col-2 joined">
+                                        <h4>13 aug 2018</h4>
+                                        <h5>Joined</h5>
+                                    </div>
+                                    <div class="col-2 phone">
+                                        <h4>251-661-5362</h4>
+                                        <h5>Phone Number</h5>
+                                    </div>
+                                    <div class="col-2 city">
+                                        <h4>New York</h4>
+                                        <h5>Location</h5>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <button type="button" class="btn btn-primary customers-options">
+                                            <h4>Options</h4>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 customers-details">
+                                        <button type="button" class="btn btn-secondary customers-options">
+                                            <h4>Details</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row customers-info">
+                                    <div class="col-2 name">
+                                        <h2>Jerry Mattedi</h2>
+                                    </div>
+                                    <div class="col-2 joined">
+                                        <h4>13 aug 2018</h4>
+                                        <h5>Joined</h5>
+                                    </div>
+                                    <div class="col-2 phone">
+                                        <h4>251-661-5362</h4>
+                                        <h5>Phone Number</h5>
+                                    </div>
+                                    <div class="col-2 city">
+                                        <h4>New York</h4>
+                                        <h5>Location</h5>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <button type="button" class="btn btn-primary customers-options">
+                                            <h4>Options</h4>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 customers-details">
+                                        <button type="button" class="btn btn-secondary customers-options">
+                                            <h4>Details</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row customers-info">
+                                    <div class="col-2 name">
+                                        <h2>Jerry Mattedi</h2>
+                                    </div>
+                                    <div class="col-2 joined">
+                                        <h4>13 aug 2018</h4>
+                                        <h5>Joined</h5>
+                                    </div>
+                                    <div class="col-2 phone">
+                                        <h4>251-661-5362</h4>
+                                        <h5>Phone Number</h5>
+                                    </div>
+                                    <div class="col-2 city">
+                                        <h4>New York</h4>
+                                        <h5>Location</h5>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <button type="button" class="btn btn-primary customers-options">
+                                            <h4>Options</h4>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 customers-details">
+                                        <button type="button" class="btn btn-secondary customers-options">
+                                            <h4>Details</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row customers-info">
+                                    <div class="col-2 name">
+                                        <h2>Jerry Mattedi</h2>
+                                    </div>
+                                    <div class="col-2 joined">
+                                        <h4>13 aug 2018</h4>
+                                        <h5>Joined</h5>
+                                    </div>
+                                    <div class="col-2 phone">
+                                        <h4>251-661-5362</h4>
+                                        <h5>Phone Number</h5>
+                                    </div>
+                                    <div class="col-2 city">
+                                        <h4>New York</h4>
+                                        <h5>Location</h5>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <button type="button" class="btn btn-primary customers-options">
+                                            <h4>Options</h4>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 customers-details">
+                                        <button type="button" class="btn btn-secondary customers-options">
+                                            <h4>Details</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row customers-info">
+                                    <div class="col-2 name">
+                                        <h2>Jerry Mattedi</h2>
+                                    </div>
+                                    <div class="col-2 joined">
+                                        <h4>13 aug 2018</h4>
+                                        <h5>Joined</h5>
+                                    </div>
+                                    <div class="col-2 phone">
+                                        <h4>251-661-5362</h4>
+                                        <h5>Phone Number</h5>
+                                    </div>
+                                    <div class="col-2 city">
+                                        <h4>New York</h4>
+                                        <h5>Location</h5>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <button type="button" class="btn btn-primary customers-options">
+                                            <h4>Options</h4>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 customers-details">
+                                        <button type="button" class="btn btn-secondary customers-options">
+                                            <h4>Details</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fim do content -->
+
+        </div>
+
+        <!-- Fim do Conteudo da página -->
+        <!-- Footer -->
+
+        <div class="row footer">
+            <div class="col-12 footer-link">
+                <a href="https://github.com/franklinhenri">
+                    <img src="imagens/c.png" alt="copyright" width="25px" height="25px">
+                    Franklin Henrique
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Fim do Footer -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-btn").click(function () {
+                $("#sidebar").toggleClass("collapsed");
+                $("#content").toggleClass("col-md-12 col-md-11");
+                return false;
+            });
+        });
+
+        var ctx = document.getElementById('grafico1').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
+
+            // The data for our dataset
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'Laptops',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [10, 19, 15, 8, 12, 16, 14]
+                },
+                {
+                    label: 'Headsets',
+                    borderColor: 'rgb(0, 99, 2)',
+                    data: [38, 40, 43, 39, 45, 35, 47]
+                },
+                {
+                    label: 'Monitors',
+                    borderColor: 'rgb(50, 29, 100)',
+                    data: [6, 10, 12, 13, 7, 9, 12]
+                },
+                {
+                    label: 'Phones',
+                    borderColor: 'rgb(100, 0, 132)',
+                    data: [20, 22, 28, 26, 27, 32, 33]
+                }
+
+                ]
+            },
+
+
+            // Configuration options go here
+            options: {}
+        });
+
+        var ctx = document.getElementById('grafico2');
+        var myChart2 = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Eletronics', 'Furniture', 'Toys',],
+                datasets: [{
+                    data: [10, 20, 30],
+                    backgroundColor: [
+                        'rgba(0, 50, 0, 1)', 'rgba(240, 0, 0, 1)', 'rgba(0, 0, 20, 1)'
+                    ]
+                }],
+
+            },
+            labels: []
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 10px;
+}
+.nav-bar{  
+    border-bottom: 1px solid rgb(226, 226, 226); 
+}
+.menu-icon img{
+    padding: 11px !important;
+    width:50px ;
+    height:50px;
+    
+}
+.galeria-icon img{
+    padding: 6px !important;
+    width:50px ;
+    height:50px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.user-name{
+    text-align: right;
+}
+.user-name h1{
+  text-align: right;
+  text-transform: uppercase;
+}
+.user-name h4{
+  text-align: right;
+  color: rgb(122, 122, 122);
+}
+.user-icon{
+  text-align: right;
+}
+.user-icon img{
+  width: 50px;
+  height: 50px;
+  padding: 6px !important;
+  margin-right: 20px !important;
+}
+.menu-btn:hover{
+  background-color: rgb(126, 126, 126);
+  border: 1px solid rgb(126, 126, 126);
+}
+.gallery-btn:hover{
+  background-color: rgb(126, 126, 126);
+  border: 1px solid rgb(126, 126, 126);
+}
+.card{
+    text-transform: uppercase;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.card h5{
+  color: rgb(122, 122, 122);
+}
+.card:hover {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+    -webkit-animation-name: oferta-animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: normal; /* Safari 4.0 - 8.0 */
+    animation-name: oferta-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;  
+  }
+.content-card{
+    padding: 17px !important;
+}
+.total{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.performace{ 
+    border: 1px solid rgb(226, 226, 226); 
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.performace-tite{
+  text-transform: uppercase;
+  padding-top: 10px !important;
+  padding-left: 20px !important;
+  padding-bottom: 20px !important;
+}
+.performace-info{
+  padding-top: 10px !important;
+  padding-left: 20px !important;
+  padding-bottom: 10px !important;
+}
+.performace-info span{
+  font-size: 14px !important;
+  color: rgb(122, 122, 122);
+}
+.categories{ 
+  border: 1px solid rgb(226, 226, 226); 
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.categories{ 
+  border: 1px solid rgb(226, 226, 226); 
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.categories-grafico{ 
+ 
+}
+.categories-tite{
+text-transform: uppercase;
+padding-top: 10px !important;
+padding-left: 20px !important;
+padding-bottom: 20px !important;
+}
+.categories-info{
+padding-top: 200px !important;
+padding-left: 20px !important;
+padding-bottom: 10px !important;
+
+}
+.categories-info span{
+font-size: 14px !important;
+color: rgb(124, 124, 124);
+}
+.tit-customers h1{
+  text-transform: uppercase;
+  padding-top: 40px !important;
+  padding-bottom: 25px !important;
+}
+.customers-content{
+  margin-bottom: 30px !important;
+  padding: 20px !important;
+  border: 1px solid rgb(226, 226, 226); 
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.customers-info{
+  justify-items: end;
+  justify-content: end;
+  align-items: baseline;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.customers-info h5{
+  color: rgb(124, 124, 124);
+}
+.customers-options {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+.customers-options h4{
+  text-transform: uppercase;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.customers-details {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+.customers-details h4{
+  text-transform: uppercase;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.name {
+  font-size: 9px !important;
+  text-transform: uppercase;
+}
+.footer{
+  border-top:1px solid rgb(58, 58, 58); 
+  padding-top: 10px !important;
+  padding-left: 50px !important;
+  padding-bottom: 10px !important;
+}
+.footer-link a{
+  color: rgb(97, 97, 97);
+  font-size: 16px !important;
+}
+.footer-link a:hover{
+  color: rgb(58, 58, 58);
+}
+.sidebar-btn:hover{
+  background-color: rgb(126, 126, 126);
+  border: 1px solid rgb(126, 126, 126);
+}
+.sidebar-btn img{
+  padding: 11px !important;
+  width:50px ;
+  height:50px;
+}
+#sidebar {
+    /* for the animation */
+    transition: margin 0.5s ease;
+  }
+  
+  .collapsed {
+    display: none !important;
+  }
+  
+  @media (min-width: 992px) {
+    .collapsed {
+      display: block;
+      /* same width as sidebar */
+      margin-left: -25%;
+    }
+  }
+  #row-main {
+    /* necessary to hide collapsed sidebar */
+    overflow-x: hidden;
+  }
+  
+  #content {
+    /* for the animation */
+    transition: width 0.5s ease;
+  }
+  #content {
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+}
+#sidebar {
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    -o-transition: margin 0.5s ease;
+    transition: margin 0.5s ease;
+}
+
+@-webkit-keyframes oferta-animation {
+  0%   {box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);}
+  50%  {box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.25);}
+  100% {box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);}
+}
+
+@keyframes oferta-animation {
+  0%   {box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);}
+  50%  {box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.25);}
+  100% {box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);}
+}
